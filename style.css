@@ -300,13 +300,15 @@ a{
 /* buy sell info css */
 .buy_sell_info{
     background-color: #F8F8F8;
+    overflow: hidden;
     
     .info_box{
         display: flex;
         justify-content: space-around;
-        padding: 60px 0;
 
         .info_content{
+            padding-top: 60px;
+
             & h2{
                 font-size: 34px;
                 color: #000;
@@ -352,6 +354,13 @@ a{
                     color: #000;
                 }
             }
+        }
+
+        .vertical_line{
+            width: 1px;
+            height: 90vh;
+            background: #000;
+            margin-top: -150px;
         }
     }
 }
@@ -457,6 +466,8 @@ a{
             padding: 60px 16px;
     
             .info_content{
+                padding-top: 40px;
+                
                 & h2{
                     font-size: 20px;
                 }
@@ -470,6 +481,10 @@ a{
                         }
                     }
                 }
+            }
+            
+            .vertical_line{
+                display: none;
             }
         }
     }
