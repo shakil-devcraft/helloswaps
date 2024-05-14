@@ -280,6 +280,20 @@ a{
                 margin-bottom: 30px;
             }
         }
+
+    }
+
+    .features_btn{
+        margin-top: 75px;
+        background: transparent;
+        color: #000000;
+        padding: 10px 25px;
+        border: 1px solid #000000;
+        outline: none;
+        border-radius: 50px;
+        font-weight: bold;
+        transition: .3s ease-in-out;
+        cursor: pointer;
     }
 }
 
@@ -431,6 +445,30 @@ a{
                     text-decoration: underline;
                     font-weight: 400;
                     margin-bottom: 30px;
+                }
+            }
+        }
+    }
+
+    .buy_sell_info{
+        
+        .info_box{
+            flex-direction: column;
+            padding: 60px 16px;
+    
+            .info_content{
+                & h2{
+                    font-size: 20px;
+                }
+    
+                .info_gap{
+                    & div{
+                        gap: 8px;
+                        
+                        & img{
+                            width: 40px;
+                        }
+                    }
                 }
             }
         }
